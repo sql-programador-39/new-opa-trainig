@@ -1,0 +1,43 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #E7F1FB;
+}
+
+.ant-modal .ant-modal-header {
+  padding-bottom: 5px;
+  border-bottom: 1px solid #d9d9d9;
+  width: 91.6667%;
+  margin: 0 auto;
+}
+
+.ant-modal .ant-modal-header .ant-modal-title {
+  font-size: 24px;
+  font-weight: 500;
+}
+
+.ant-modal .ant-modal-close {
+  top: 24px;
+  right: 48px;
+}
+
+.button-disabled {
+  background-color: #000;
+  color: #fff;
+  padding: 10px 20px;
+  border-radius: 10px;
+  cursor: pointer;
+  width: 100%;
+  margin: 10px 0;
+  font-size: 20px;
+  opacity: 0.5;
+  cursor: not-allowed !important;
+}
